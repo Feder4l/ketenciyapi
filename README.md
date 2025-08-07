@@ -33,3 +33,13 @@ Projeyi kendi bilgisayarınızda çalıştırmak için:
 ```bash
 git clone https://github.com/kullanici-adi/ketenciyapi.com.git
 cd ketenciyapi.com
+
+Ardından index.html dosyasını tarayıcınızda açarak siteyi görüntüleyebilirsiniz.
+
+📝 Lisans
+Bu proje, Ketenci Yapı adına geliştirilmiş özel bir projedir. Ticari olmayan kişisel kullanım dışında izinsiz kullanılamaz.
+
+📬 İletişim
+Proje geliştiricisi: Selçuk GÜNDÜÇ
+E-posta: selcuk.gndc@gmail.com
+Firma: [Ketenci Yapı - İstanbul]
