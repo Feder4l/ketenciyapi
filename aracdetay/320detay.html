@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../images/logolar/tepe.png" type="image/x-icon" />
+  <title>Araç Detay | Ketenci Otomotiv</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="../css/style.css" />
+  <style>
+    .detail-section {
+      max-width: 1100px;
+      margin: 40px auto;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    .detail-image {
+      flex: 1 1 40%;
+      max-width: 450px;
+    }
+
+    .detail-image img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .detail-info {
+      flex: 1 1 55%;
+    }
+
+    .detail-info h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 20px;
+    }
+
+    .detail-info p {
+      font-size: 1.2rem;
+      margin: 10px 0;
+      color: #555;
+    }
+
+    .price-tag {
+      margin-top: 20px;
+      font-size: 1.6rem;
+      color: #c0392b;
+      font-weight: bold;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 10px 20px;
+      background: #c0392b;
+      color: white;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+
+    .back-btn:hover {
+      background: #922b21;
+    }
+
+    @media screen and (max-width: 768px) {
+      .detail-section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .detail-info h2 {
+        font-size: 2rem;
+      }
+
+      .detail-info p {
+        font-size: 1rem;
+      }
+
+      .detail-image, .detail-info {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body class="fade-in">
+
+      <!-- whatsapp -->
+    <a
+      href="https://wa.me/905345244687"
+      class="whatsapp-float"
+      target="_blank"
+      title="WhatsApp ile iletişime geçin"
+    >
+      <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <header class="header">
+      <img src="../images/logolar/otomotiv.png" border="0" width="165,6" height="53,2" alt="" />
+
+      <nav class="navbar">
+        <!--<a href="#home">Anasayfa</a>-->
+        <!--<a href="index.html">Ketenci Yapı</a>-->
+        <a href="../otomotiv.html">Ketenci Otomotiv</a>
+        <a href="../index.html#about">Hakkımızda</a>
+        <a href="../index.html#services">Hizmetlerimiz</a>
+        <a href="../index.html#projects">Projelerimiz</a>
+        <a href="../urunler.html">Yapı Malzemeleri</a>
+        <!--<a href="#pricing">pricing</a>-->
+        <a href="../index.html#contact">İletişim</a>
+      </nav>
+
+      <div class="icons">
+        <!-- Keep these hidden -->
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <div id="search-btn" class="fas fa-search" style="display: none;"></div>
+        <div id="login-btn" class="fas fa-user" style="display: none;"></div>
+
+        <!-- Keep this one visible -->
+        <div id="info-btn" class="fas fa-info-circle"></div>
+      </div>
+    </header>
+        <div class="contact-info">
+      <div id="close-contact-info" class="fas fa-times"></div>
+      <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>İletişim Numaralarımız</h3>
+        <p>+90 (534) 524 46 87</p>
+        <p>+90 (850) 308 66 87</p>
+        <p>+90 (216) 606 39 25</p>
+      </div>
+
+      <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>Mail Adreslerimiz</h3>
+        <p>istemsigorta25@gmail.com</p>
+        <p>ketenciyapi@gmail.com</p>
+      </div>
+      <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>Ofisimiz</h3>
+        <p>Mehmet Akif, Papatya Sk. No:55 D:1, 34150 Çekmeköy/İstanbul</p>
+      </div>
+      <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+      </div>
+    </div>
+  <section class="heading">
+    <h1>BMW 3 Serisi Detayları</h1>
+    <p><a href="../index.html">Anasayfa</a> / <a href="../otomotiv.html">Otomotiv</a> / Detay</p>
+  </section>
+
+  <section class="detail-section">
+    <div class="detail-image">
+      <img src="../images/arabalar/bmw3.jpg" alt="BMW 3 Serisi" />
+    </div>
+    <div class="detail-info">
+      <h2>2023 BMW 3 Serisi</h2>
+      <p><strong>Vites:</strong> Otomatik</p>
+      <p><strong>Yakıt Türü:</strong> Benzin</p>
+      <p><strong>Kilometre:</strong> 20.000 KM</p>
+      <p><strong>Motor Gücü:</strong> 156 HP</p>
+      <p><strong>Motor Hacmi:</strong> 1.6L</p>
+      <p><strong>Çekiş Tipi:</strong> Arkadan İtiş</p>
+      <p><strong>Kasa Tipi:</strong> Sedan</p>
+      <p><strong>Renk:</strong> Siyah</p>
+      <span class="price-tag">2.750.000 TL</span>
+      <br />
+      <a href="../otomotiv.html" class="back-btn">← Geri Dön</a>
+    </div>
+  </section>
+
+   <section class="footer">
+      <div class="links">
+        <a class="btn" href="../index.html">Ketenci Yapı</a>
+        <a class="btn" href="../otomotiv.html">Ketenci Otomotiv</a>
+        <a class="btn" href="../index.html#about">Hakkımızda</a>
+        <a class="btn" href="../index.html#services">Hizmetlerimiz</a>
+        <a class="btn" href="../index.html#projects">Projelerimiz</a>
+        <a class="btn" href="../urunler.html">Yapı Malzemeleri</a>
+        <a class="btn" href="../index.html#contact">İletişim</a>
+      </div>
+
+      <div class="credit">
+        created by
+        <a href="https://www.linkedin.com/in/sel%C3%A7uk-g%C3%BCnd%C3%BC%C3%A7-883ab8309/" target="_blank">
+          <span>Selçuk Gündüç</span>
+        </a>
+        | all rights reserved!
+      </div>
+    </section>
+
+  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  <script src="../js/script.js"></script>
+</body>
+</html>
