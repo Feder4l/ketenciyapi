@@ -23,7 +23,8 @@ Bu proje aşağıdaki teknolojiler kullanılarak geliştirilmiştir:
 - HTML5
 - CSS3
 - JavaScript
-- Bootstrap 
+- Bootstrap
+- SCSS
 
 ## 🔧 Kurulum
 
